@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  *
  * @author usach
  */
-public class Vorlesung1 {
+public class Vorlesung1_FileInputStream_FileOutputStream {
 
     public static void main(String[] args) {
         try {
@@ -72,9 +72,9 @@ public class Vorlesung1 {
             //ich lasse alle, damit ich immer noch alles nachvollziehen kann
             //aber bräuchte in dem Fall nur die IOException, weil sie die obere mitabdeckt
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(Vorlesung1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Vorlesung1_FileInputStream_FileOutputStream.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            Logger.getLogger(Vorlesung1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Vorlesung1_FileInputStream_FileOutputStream.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }
