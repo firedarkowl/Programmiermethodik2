@@ -29,7 +29,7 @@ public class Vorlesung1_BufferedReader {
             Reader in = new InputStreamReader(new BufferedInputStream(new FileInputStream("test.txt")));
             
             //erstelle einen Puffer, wohin die Zeichen abgespeichert werden
-            char[] buf = new char[4];
+            char[] buf = new char[4]; //
             
             //wir rufen nun unseren Reader auf und der speichert die eingelesenen Zeichen in den erstellten Puffer
             in.read(buf);
