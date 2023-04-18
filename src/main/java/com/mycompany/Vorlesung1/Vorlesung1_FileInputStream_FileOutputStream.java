@@ -1,4 +1,4 @@
-package com.mycompany.vorlesungexersises;
+package com.mycompany.Vorlesung1;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
