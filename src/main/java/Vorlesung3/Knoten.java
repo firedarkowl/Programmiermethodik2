@@ -1,4 +1,4 @@
-package Vorlesung2;
+package Vorlesung3;
 
 public class Knoten <T> {
     private T element;

@@ -1,4 +1,4 @@
-package Vorlesung2;
+package Vorlesung3;
 
 //hier konkrete Implementierung von dem Interface incl konkreter Verwendung des Generics (setze also schon was ein)
 public class ContainerString implements HatGetter<String> {
